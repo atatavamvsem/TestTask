@@ -1,7 +1,9 @@
 package com.example.testtask.controller;
 
+import com.example.testtask.converters.DtoConverter;
 import com.example.testtask.models.Role;
 import com.example.testtask.models.User;
+import com.example.testtask.models.UserDto;
 import com.example.testtask.repositories.UserRepositories;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -9,16 +11,22 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.util.Collections;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 @Controller
 public class RegistrationController {
+    @Autowired
+    private DtoConverter dtoConverter;
+
     @Autowired
     private UserRepositories userRepositories;
 
@@ -33,7 +41,7 @@ public class RegistrationController {
 
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/registration")
-    public String addUser(User user, Map<String, Object> model,
+    public String addUser(@Valid @ModelAttribute(name = "user") UserDto user, Map<String, Object> model,
                           @RequestParam("userRole") Set<Role> role){
         User userFromDb = userRepositories.findByUsername(user.getUsername());
 
@@ -47,8 +55,10 @@ public class RegistrationController {
 
         LocalDate localDate = LocalDate.now();
         user.setCreated(localDate);
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
-        userRepositories.save(user);
+        String a = user.getPassword();
+        user.setPassword(passwordEncoder.encode(a));
+        User newUser = dtoConverter.convertToEntityUser(user);
+        userRepositories.save(newUser);
         return "redirect:/main";
     }
 }

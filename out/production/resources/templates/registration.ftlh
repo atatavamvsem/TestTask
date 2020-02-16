@@ -14,10 +14,12 @@ ${message?ifExists}
      </div>
      <div class="form-group row">
          <label class="col-sm-2 col-form-label">Password:</label>
+
          <div class="col-sm-3">
              <input type="password" name="password" class="form-control" placeholder="Password"/>
          </div>
      </div>
+
      <div class="form-group row">
          <label class="col-sm-2 col-form-label">Last name:</label>
          <div class="col-sm-3">

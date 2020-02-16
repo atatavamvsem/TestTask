@@ -1,5 +1,6 @@
 package com.example.testtask.models;
 
+import com.example.testtask.annotations.ValidPassword;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

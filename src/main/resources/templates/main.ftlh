@@ -5,6 +5,14 @@
         <a href="/registration">Add new user</a>
     </#if>
     <h5>List users</h5>
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <form method="get" action="/main" class="form-inline">
+            <input type="text" name="filterUser" class="form-control" value="${filterUser?ifExists}" placeholder="Search by username">
+            <button type="submit" class="btn btn-primary ml-2">Search</button>
+        </form>
+    </div>
+</div>
 
 <table   class="table table-striped">
     <thead>

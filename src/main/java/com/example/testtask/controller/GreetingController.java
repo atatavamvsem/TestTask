@@ -5,6 +5,11 @@ import com.example.testtask.repositories.UserRepoList;
 import com.example.testtask.repositories.UserRepositories;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
+
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import com.example.testtask.models.Role;
 import org.springframework.ui.Model;
@@ -30,16 +35,20 @@ public class GreetingController {
     }
 
     @GetMapping("/main")
-    public String main(@RequestParam(required = false, defaultValue = "") String filterUser, Model model){
-        Iterable<User> users =  userRepoList.findAll();
+    public String main(
+            @RequestParam(required = false, defaultValue = "") String filterUser,
+            Model model,
+            @PageableDefault(sort = {"id"}, direction = Sort.Direction.DESC) Pageable pageable){
+        Page<User> page;
 
         if (filterUser != null && !filterUser.isEmpty()) {
-            users = userRepoList.findByUsername(filterUser);
+            page = userRepoList.findByUsername(filterUser, pageable);
         } else {
-            users = userRepoList.findAll();
+            page = userRepoList.findAll(pageable);
         }
 
-        model.addAttribute("users", users);
+        model.addAttribute("page", page);
+        model.addAttribute("url", "/main");
         model.addAttribute("filterUser", filterUser);
         return "main";
     }

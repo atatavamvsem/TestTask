@@ -1,5 +1,6 @@
 <#include "parts/security.ftlh">
 <#import "parts/common.ftlh" as c>
+<#import "parts/pager.ftlh" as p>
 <@c.page>
     <#if isAdmin>
         <a href="/registration">Add new user</a>
@@ -13,7 +14,7 @@
         </form>
     </div>
 </div>
-
+<@p.pager url page/>
 <table   class="table table-striped">
     <thead>
     <tr>
@@ -24,7 +25,7 @@
         <th>Edit</th>
     </tr>
     </thead>
-    <#list users as user>
+    <#list page.content as user>
         <tr>
             <td>${user.username}</td>
             <td>${user.lastname}</td>
@@ -34,4 +35,5 @@
         </tr>
     </#list>
 </table>
+<@p.pager url page/>
 </@c.page>

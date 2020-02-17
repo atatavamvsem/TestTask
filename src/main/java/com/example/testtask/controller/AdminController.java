@@ -45,7 +45,7 @@ public class AdminController {
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping
     public String userSave(@RequestParam String username, @RequestParam String password, @RequestParam String lastname,
-                           @RequestParam Map<String,String> form, @RequestParam String firstname, @RequestParam boolean status,
+                           @RequestParam Map<String,String> form, @RequestParam String firstname, @RequestParam(defaultValue = "false") boolean status,
                            @RequestParam("userRole") Role role,
                            @RequestParam("userId") User user) {
         user.setUsername(username);

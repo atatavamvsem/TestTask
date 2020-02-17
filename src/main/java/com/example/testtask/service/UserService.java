@@ -1,5 +1,6 @@
 package com.example.testtask.service;
 
+import com.example.testtask.models.User;
 import com.example.testtask.repositories.UserRepositories;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,6 +15,10 @@ public class UserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return userRepositories.findByUsername(username);
+        User user = userRepositories.findByUsername(username);
+        if (user == null){
+            throw new UsernameNotFoundException("User not found");
+        }
+        return user;
     }
 }

@@ -1,15 +1,23 @@
 package com.example.testtask.models;
 
 import com.example.testtask.annotations.ValidPassword;
+import org.hibernate.validator.constraints.Length;
 
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 import java.util.Set;
 
 public class UserDto {
 
     private long id;
+    @Length(max = 16, message = "too long(more 16)")
+    @Length(min = 3, message = "min 3 symbol")
     private String username;
+    @NotBlank(message = "Empty")
+    @Length(max = 16, message = "too long(more 16)")
     private String firstname;
+    @NotBlank(message = "Empty")
+    @Length(max = 16, message = "too long(more 16)")
     private String lastname;
     private boolean status;
     @ValidPassword

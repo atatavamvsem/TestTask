@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" line="7" mnemonic="8" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c360baed-bd4c-4dc1-a876-397b7ff09fd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/annotations/ValidPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/converters/DtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/ControllerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/testtask/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/testtask/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/controller/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/testtask/controller/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/testtask/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/testtask/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/testtask/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/editUser.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/editUser.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/parts/navbar.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/registration.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -138,11 +128,11 @@
           <entry key="bat" value="1" />
           <entry key="bpchar" value="1" />
           <entry key="css" value="1" />
-          <entry key="ftlh" value="41" />
+          <entry key="ftlh" value="46" />
           <entry key="gradle" value="8" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="116" />
+          <entry key="java" value="125" />
           <entry key="mustache" value="10" />
           <entry key="properties" value="7" />
           <entry key="sql" value="4" />
@@ -153,10 +143,10 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="Database Element" value="1" />
-          <entry key="FTL" value="41" />
+          <entry key="FTL" value="46" />
           <entry key="Groovy" value="8" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="116" />
+          <entry key="JAVA" value="125" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="7" />
           <entry key="SQL" value="1" />
@@ -169,24 +159,24 @@
           <entry key="css" value="28" />
           <entry key="dummy" value="13" />
           <entry key="ftl" value="60" />
-          <entry key="ftlh" value="1781" />
+          <entry key="ftlh" value="1895" />
           <entry key="gradle" value="125" />
           <entry key="html" value="8" />
-          <entry key="java" value="3136" />
+          <entry key="java" value="3457" />
           <entry key="mustache" value="340" />
           <entry key="properties" value="111" />
           <entry key="sql" value="6" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="28" />
-          <entry key="FTL" value="1841" />
+          <entry key="FTL" value="1955" />
           <entry key="Groovy" value="125" />
           <entry key="HTML" value="8" />
-          <entry key="JAVA" value="3136" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="JAVA" value="3457" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Properties" value="111" />
           <entry key="SQL" value="6" />
           <entry key="XHTML" value="340" />
@@ -199,7 +189,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="120">
               <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -208,44 +198,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/editUser.ftlh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/config/MvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepositories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftlh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="132" selection-start-line="10" selection-start-column="132" selection-end-line="10" selection-end-column="132" />
+            <state relative-caret-position="595">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -253,8 +219,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            <state relative-caret-position="268">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,10 +229,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="53">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/ControllerUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftlh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftlh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -709,9 +726,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/models/Role.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/infoUser.ftlh" />
@@ -719,21 +733,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/converters/DtoConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepositories.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserRepoList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/repositories/UserRepoList.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/editUser.ftlh" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/ControllerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java" />
       </list>
     </option>
   </component>
@@ -963,12 +981,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581519915441</updated>
-      <workItem from="1581519941796" duration="111717000" />
+      <workItem from="1581519941796" duration="121043000" />
     </task>
+    <task id="LOCAL-00001" summary="version 2">
+      <created>1581876304751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581876304813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111717000" />
+    <option name="totallyTimeSpent" value="121043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,13 +1007,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.22314675" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Build" order="1" weight="0.3289689" />
@@ -1001,7 +1026,7 @@
       <window_info anchor="bottom" id="Find" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" sideWeight="0.63615733" visible="true" weight="0.016366612" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.63615733" visible="true" weight="0.39443535" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.3289689" />
@@ -1022,21 +1047,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.2.RELEASE/95832bf01d9bc52002836683637855ec254eec0/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/web/context/request/AbstractRequestAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1230,13 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/annotation/ElementType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -1251,31 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/annotations/ValidPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/converters/DtoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1284,58 +1267,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2378#2379#0" expanded="true" />
-            <element signature="e#2406#2407#0" expanded="true" />
-            <element signature="e#2566#2567#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1353,23 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1396,30 +1310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/annotations/ValidPassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1433,10 +1327,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/ControllerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/models/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/validators/PasswordConstraintValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/controller/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/editUser.ftlh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="595">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testtask/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@
     <div class="col-sm-3">
         <input type="text" name="username" class="form-control" placeholder="User name" value="${user.username}"/>
     </div>
-    <label class="col-sm-2 col-form-label">User Name :</label>
+    <label class="col-sm-2 col-form-label">Password :</label>
     <div class="col-sm-3">
         <input type="text" name="password" class="form-control" placeholder="password" value="${user.password}"/>
     </div>
@@ -28,6 +28,12 @@
     <label class="col-sm-2 col-form-label">Last Name :</label>
     <div class="col-sm-3">
         <input type="text" name="lastname" class="form-control" placeholder="User name" value="${user.lastname}"/>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Status:</label>
+        <div class="col-sm-3">
+            <input type="checkbox" name="status" class="form-control" <#if (user.status)> checked="checked" value="false" <#else> value="true"</#if> />
+        </div>
     </div>
 
 

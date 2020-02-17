@@ -32,7 +32,7 @@
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Status:</label>
         <div class="col-sm-3">
-            <input type="checkbox" name="status" class="form-control" <#if (user.status)> checked="checked"</#if> />
+            <input type="checkbox" name="status" class="form-control" <#if (user.status)> checked="checked" value="false" <#else> value="true"</#if> />
         </div>
     </div>
 

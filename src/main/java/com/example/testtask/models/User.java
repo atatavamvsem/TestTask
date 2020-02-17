@@ -1,10 +1,12 @@
 package com.example.testtask.models;
 
 import com.example.testtask.annotations.ValidPassword;
+import org.hibernate.validator.constraints.Length;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Date;
@@ -16,6 +18,7 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
     private String username;
     private String firstname;
     private String lastname;
